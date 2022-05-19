@@ -17,7 +17,7 @@
 
 ---
 ---
-[Project 4 Title](2013 APD Traffic Fatalities)
+[Project 4 Title](Traffic.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---

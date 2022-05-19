@@ -17,7 +17,7 @@
 
 ---
 ---
-[Project 4 Title](Traffic.md)
+[Project 4 Title](/Traffic)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---

@@ -17,7 +17,7 @@
 
 ---
 ---
-[Project 4 Title](/Traffic)
+[Project 4 Title](/example2)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---

@@ -17,7 +17,7 @@
 
 ---
 ---
-[Project 4 Title](notebook.ipynb)
+[Project 4 Title](notebook)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---

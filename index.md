@@ -31,5 +31,5 @@
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:11px">Copyright © 2022 Ratthasan Srisongmueang. All Rights Reserved. </p>
 <!-- Remove above link if you don't want to attibute -->

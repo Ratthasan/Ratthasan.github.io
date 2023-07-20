@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background for normal mode */
+    color: #000; /* Black text for normal mode */
+}
+
+.dark-mode {
+    background-color: #000; /* Black background for dark mode */
+    color: #fff; /* White text for dark mode */
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222; /* Dark gray background for header */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Add styling for your portfolio content here */

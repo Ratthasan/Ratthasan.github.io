@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratthasan - Cybersecurity Analyst</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-YWznSfwjKj8a8aBo5Q5iSH+BoRnHxvyQ+W9WDhydQfA6tLN2WFu6A5MqEyMvyONHCOnHWqIp/VQvafw8a7q7PXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#aboutmelink">About</a></li>
+            <li><a href="#education-header">Education</a></li>
+            <li><a href="#contactlink">Contact Me</a></li>
+        </ul>
+        <img src="images/Ratthasan.jpg" alt="Ratthasan Srisongmueang width="300" height="300"">
+        <h1>RATTHASAN</h1>
+        <h1>SRISONGMUEANG</h1>
+        <p>Professional Soc, Security Analyst.</p>
+        <nav>
+            <a class="download-button" href="resume/Ratthasan_resume.pdf" download="Resume">Resume</a>
+            <a class="contact-button" href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <div class="container-about" id="aboutmelink">
+            <section class="column about">
+                <h2 id="aboutme">About Me and Academic Honesty</h2>
+                <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+                    No part of this assessment has been copied manually or electronically from any other source
+                    (including web sites) except for the information supplied by the WEB222 instructors and / or
+                    made available in this assessment for my use. I also declare that no part of this assignment has
+                    been distributed to other students.</p>
+                <p><strong>Date:</strong> April 11, 2024</p>
+            </section>
+        
+            <section class="column basic-info">
+                <h2 id="aboutme-info">Basic Infomation</h2>
+                <p><strong>Name:</strong> Ratthasan Srisongmueang</p>
+                <p><strong>Language:</strong> English, Thai</p>
+                <p><strong>Email:</strong> ratthasans@outlook.com</p>
+                <p><strong>Institution:</strong> Seneca Polytechnic</p>
+                <p><strong>Course:</strong> Web Programming Principles</p>
+                <p><strong>Section:</strong> ZCC</p>
+                <p><strong>Instructor:</strong> Mark Meritt</p>
+                <!-- Additional content can be added here -->
+            </section>
+        </div>
+
+
+        <h2 id="education-header">Education</h2>
+        <div class="container-education">
+            <section class="column education-1">
+                <h2 id="degree-header">Bachelor's Degree</h2>
+                <p><strong>Institution:</strong> Chiang Mai University</p>
+                <p><strong>Degree:</strong> Bachelor of Engineering</p>
+                <p><strong>Field of Study:</strong> Computer Engineering</p>
+                <p><strong>Graduation Year:</strong> 2016</p>
+                <!-- Add more education details here if needed -->
+            </section>
+
+            <section class="column education-2">
+                <h2 id ="degree-header">College Diploma</h2>
+                <p><strong>Institution:</strong> Seneca Polytechnic</p>
+                <p><strong>Degree:</strong> Ontario College Diploma</p>
+                <p><strong>Field of Study:</strong> Computer Programming(CPP)</p>
+                <p><strong>Graduation Year:</strong> 2025</p>
+                <!-- Add more education details here if needed -->
+            </section>
+        </div>
+        <h2 id="contact-header">Contact Me</h2>
+        <div class="container-contact" id="contactlink">
+            
+            <form action="https://httpbin.org/post" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+        
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Address" required>
+        
+                <label for="city">City:</label>
+                <input list="cities" id="city" name="city" placeholder="City" required>
+                <datalist id="cities">
+                    <option value="Toronto">
+                    <option value="Montreal">
+                    <option value="Vancouver">
+                    <option value="Calgary">
+                    <option value="Edmonton">
+                    <!-- More Canadian cities can be added here -->
+                </datalist>
+        
+                <label for="postalcode">Postal Code:</label>
+                <input type="text" id="postalcode" name="postalcode" placeholder="Postal Code" 
+                       pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$" required>
+        
+                <p>Reason for Contact:</p>
+                <label><input type="radio" name="reason" value="Question" required> Question</label>
+                <label><input type="radio" name="reason" value="Comment"> Comment</label>
+                <label><input type="radio" name="reason" value="Hiring"> Hiring</label>
+        
+                <div id="hourly-rate-input" style="display:none;">
+                    <label for="hourly-rate">Hourly Rate ($):</label>
+                    <input type="number" id="hourly-rate" name="hourly_rate" placeholder="Enter hourly rate" 
+                           min="0" step="0.01">
+                </div>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+        
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
+    </main>
+
+    <footer id="myfooter">
+        <p>Ratthasan Srisongmueang © 2024 Made by pure HTML/CSS/JS</p>
+    </footer>
+</body>
+</html>
